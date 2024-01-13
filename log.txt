@@ -1,0 +1,92 @@
+{"level":"info","message":"/api/cartItems/ - {}","service":"user-request logging"}
+{"level":"info","message":"/api/users/signin - {\"email\":\"customer@eco.com\",\"password\":\"2\"}","service":"user-request logging"}
+{"level":"info","message":"/api/product/rate?productID=2&userID=1&rating=2 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/rate?productID=2&userID=1&rating=2 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/rate?productID=2&userID=1&rating=2 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/rate?productID=2&userID=11&rating=2 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/rate?productID=2&userID=11&rating=2 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/rate?productID=2&userID=11&rating=2 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/rate?productID=2&userID=11&rating=2 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/rate?productID=2&userID=11&rating=2 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/rate?productID=2&userID=11&rating=2 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/rate?productID=2&userID=1&rating=2 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/rate?productID=2&userID=11&rating=2 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/rate?productID=2&userID=11&rating=2 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/rate?productID=2&userID=11&rating=2 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/rate?productID=2&userID=11&rating=2 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/rate?productID=2&userID=1&rating=2 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/rate?productID=2&userID=1&rating=2 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/rate?productID=2&userID=11&rating=2 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/rate?productID=2&userID=11&rating=2 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/rate?productID=2&userID=11&rating=2 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/rate?productID=2&userID=11&rating=2 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/rate?productID=2&userID=11&rating=2 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/rate?productID=2&userID=1&rating=2 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/users/signin - {\"email\":\"customer@eco.com\",\"password\":\"2\"}","service":"user-request logging"}
+{"level":"info","message":"/api/products/rate?productID=2&userID=1&rating=2 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/rate?productID=2&userID=11&rating=2 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/rate?productID=2&userID=11&rating=2 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/rate?productID=2&userID=11&rating=2 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/rate?productID=22&userID=11&rating=2 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/rate?productID=22&userID=1&rating=2 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/rate?productID=22&userID=11&rating=2 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/rate?productID=2&userID=11&rating=2 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/users/signup - {\"email\":\"seller@eco.com\",\"password\":\"2\",\"name\":\"seller user\",\"type\":\"seller\"}","service":"user-request logging"}
+{"level":"info","message":"/api/users/signup - {\"email\":\"seller@eco.com\",\"password\":\"2\",\"name\":\"seller user\",\"type\":\"seller\"}","service":"user-request logging"}
+{"level":"info","message":"/api/users/signup - {\"email\":\"seller@eco.com\",\"password\":\"2\",\"name\":\"seller user\",\"type\":\"seller\"}","service":"user-request logging"}
+{"level":"info","message":"/api/users/signup - {\"email\":\"seller@eco.com\",\"password\":\"2\",\"name\":\"seller user\",\"type\":\"seller\"}","service":"user-request logging"}
+{"level":"info","message":"/api/users/signup - {\"email\":\"seller@eco.com\",\"password\":\"2\",\"name\":\"seller user\",\"type\":\"seller\"}","service":"user-request logging"}
+{"level":"info","message":"/api/users/signup - {\"email\":\"seller@eco.com\",\"password\":\"2\",\"name\":\"seller user\",\"type\":\"seller\"}","service":"user-request logging"}
+{"level":"info","message":"/api/users/signup - {\"email\":\"seller2@eco.com\",\"password\":\"23\",\"name\":\"seller user\",\"type\":\"seller2\"}","service":"user-request logging"}
+{"level":"info","message":"/api/users/signup - {\"email\":\"seller3@eco.com\",\"password\":\"23\",\"name\":\"seller user 3\",\"type\":\"seller2\"}","service":"user-request logging"}
+{"level":"info","message":"/api/users/signup - {\"email\":\"seller3@eco.com\",\"password\":\"23\",\"name\":\"seller user 3\",\"type\":\"seller2\"}","service":"user-request logging"}
+{"level":"info","message":"/api/users/signin - {\"email\":\"seller3@eco.com\",\"password\":\"23\"}","service":"user-request logging"}
+{"level":"info","message":"/api/users/signin - {\"email\":\"seller3@eco.com\",\"password\":\"23\"}","service":"user-request logging"}
+{"level":"info","message":"/api/users/signin - {\"email\":\"seller3@eco.com\",\"password\":\"23\"}","service":"user-request logging"}
+{"level":"info","message":"/api/users/signin - {\"email\":\"seller3@eco.com\",\"password\":\"23\"}","service":"user-request logging"}
+{"level":"info","message":"/api/users/signup - {\"email\":\"seller4@eco.com\",\"password\":\"23\",\"name\":\"seller user 4\",\"type\":\"seller\"}","service":"user-request logging"}
+{"level":"info","message":"/api/users/signup - {\"email\":\"seller4@eco.com\",\"password\":\"23\",\"name\":\"seller user 4\",\"type\":\"seller\"}","service":"user-request logging"}
+{"level":"info","message":"/api/users/signup - {\"email\":\"seller4@eco.com\",\"password\":\"23\",\"name\":\"seller user 4\",\"type\":\"seller\"}","service":"user-request logging"}
+{"level":"info","message":"/api/users/signup - {\"email\":\"seller4@eco.com\",\"password\":\"23\",\"name\":\"seller user 4\",\"type\":\"seller\"}","service":"user-request logging"}
+{"level":"info","message":"/api/users/signin - {\"email\":\"seller4@eco.com\",\"password\":\"23\"}","service":"user-request logging"}
+{"level":"info","message":"/api/users/signin - {\"email\":\"seller4@eco.com\",\"password\":\"23\"}","service":"user-request logging"}
+{"level":"info","message":"/api/users/signin - {\"email\":\"seller4@eco.com\",\"password\":\"23\"}","service":"user-request logging"}
+{"level":"info","message":"/api/users/signin - {\"email\":\"seller4@eco.com\",\"password\":\"23\"}","service":"user-request logging"}
+{"level":"info","message":"/api/users/signin - {\"email\":\"seller4@eco.com\",\"password\":\"23\"}","service":"user-request logging"}
+{"level":"info","message":"/api/users/signin - {\"email\":\"seller4@eco.com\",\"password\":\"223\"}","service":"user-request logging"}
+{"level":"info","message":"/api/products - {}","service":"user-request logging"}
+{"level":"info","message":"/api/users/signin - {\"email\":\"seller4@eco.com\",\"password\":\"23\"}","service":"user-request logging"}
+{"level":"info","message":"/api/products - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products - {}","service":"user-request logging"}
+{"level":"info","message":"/api/users/signin - {\"email\":\"seller4@eco.com\",\"password\":\"23\"}","service":"user-request logging"}
+{"level":"info","message":"/api/products/ - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/ - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/ - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/ - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/ - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/ - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/ - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/65a0f7d18875af1caca1a836 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/65a0f7d18875af1caca1a836 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/65a0f7d18875af1caca1a836 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/users/signin - {\"email\":\"seller4@eco.com\",\"password\":\"23\"}","service":"user-request logging"}
+{"level":"info","message":"/api/products/filter?minPrice=10&maxPrice=30 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/filter?minPrice=10&maxPrice=30 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/filter?minPrice=10&maxPrice=30 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/filter?minPrice=100 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/filter?minPrice=100 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/filter?minPrice=100 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/filter?minPrice=100 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/filter?minPrice=100 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/rateter?productID=65a0f7d18875af1caca1a836&rating=4 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/rate?productID=65a0f7d18875af1caca1a836&rating=4 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/rate?productID=65a0f7d18875af1caca1a836&rating=4 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/rate?productID=65a0f7d18875af1caca1a836&rating=4 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/rate?productID=65a0f8ce8875af1caca1a837&rating=4 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/rate?productID=65a0f8ce8875af1caca1a837&rating=5 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/products/rate?productID=65a0f8ce8875af1caca1a837&rating=5 - {}","service":"user-request logging"}
+{"level":"info","message":"/api/users/signin - {\"email\":\"seller4@eco.com\",\"password\":\"23\"}","service":"user-request logging"}
+{"level":"info","message":"/api/products/rate?productID=65a0f8ce8875af1caca1a837&rating=5 - {}","service":"user-request logging"}

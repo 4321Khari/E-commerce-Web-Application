@@ -13,12 +13,26 @@ export default class UserController{
 
   }
 
+    async resetPassword(req,res){
+      const {newPassword} = req.body;
+      console.log(newPassword);
+      const hashPassword = await bcrypt.hash(newPassword,12,)
+      const userID = req.userID;
+      try{
+        await  this.userRepository.resetPassword(userID,hashPassword);
+        res.send("password updated")
+      }catch(err){
+        console.log(err);
+      }
+
+    }
+
     async signup(req,res){
 
       const {name,email,password,type} = req.body;
       const hashPassword = await bcrypt.hash(password,12,)
       
-        const user = new UserModel(name,email,hashPassword,type);
+       const user = new UserModel(name,email,hashPassword,type);
  
       await this.userRepository.signUp(user);
 
@@ -32,7 +46,7 @@ export default class UserController{
     try{
 
       const user =  await this.userRepository.findByEmail(req.body.email);
-      console.log(user.password);
+   
       if(!user){
         return res.status(400).send('incorrect credentials');
       }else{

@@ -1,6 +1,3 @@
-import dotenv from "dotenv";
-//load all the env variables in application
-dotenv.config();
 
 import  express from 'express';
 import  swagger from "swagger-ui-express";
@@ -15,6 +12,8 @@ import apiDocs from './swagger.json ' assert {type:'json'};
 import loggerMiddlware from './src/middlewares/logger.middleware.js';
 import ApplicationError from './src/errorhandler/applicationError.js';
 import { connectToMongodb } from './src/config/mongodb.js';
+import orderRouter from "./src/features/order/order.routes.js";
+import { connectUsingMongoose } from "./src/config/mongoose.js";
 
 
 const server = express();
@@ -33,8 +32,9 @@ server.use("/api-docs",swagger.serve,swagger.setup(apiDocs));
 
 server.use(loggerMiddlware);
 
+server.use('/api/orders',jwtAuth,orderRouter);
 
-server.use('/api/cartItems',jwtAuth,cartRouter)
+server.use('/api/cartItems',jwtAuth,cartRouter);
 
 server.use('/api/products',jwtAuth,ProductRouter);
 
@@ -66,6 +66,7 @@ server.use('/api/users',userrouter);
 
     server.listen(3200,()=>{
         console.log("server is running")
-        connectToMongodb();
+      //  connectToMongodb();
+      connectUsingMongoose();
     });
    

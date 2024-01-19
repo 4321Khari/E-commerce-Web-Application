@@ -11,27 +11,5 @@ export default class  UserModel{
         this._id = id;
     }
     
-    static getAll(){
-        return users;
-    }
-}
-
-let users = [
-    {
-    'id':1,
-    'name':"seller user",
-    "email":"seller@eco.com",
-    'password':'1',
-    'type':'seller',
-    
-},
-{
-    'id':2,
-    'name':"customer user",
-    "email":"customer@eco.com",
-    'password':'2',
-    'type':'customer',
     
 }
-
-]

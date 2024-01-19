@@ -1,52 +1,51 @@
-import { getDB } from "../../config/mongodb.js";
+import mongoose from "mongoose";
+import { userSchema } from "./user.schema.js";
 import ApplicationError from "../../errorhandler/applicationError.js";
 
+//creating model from schema
+const UserModel = mongoose.model('user',userSchema);
 
-class UserRepository{
 
-     async signUp(newUser){
+export default class UserRepository{
+
+    async resetPassword(userID,hashPassword){
         try{
-  
-            //1. get the DB
-            const db = getDB();
-            //2. get the collection
-            const collection = db.collection("users");
-           
-            //3. insert the document
-           await collection.insertOne(newUser);
-           return newUser; 
-  
-          }catch(err){
-              console.log(err);
-              throw new ApplicationError("something is wrong while signup of user ",503);
-          }
-  
-        
-  
+            console.log(userID);
+            let user =await UserModel.findById(userID);
+            console.log(user);
+            user.password = hashPassword;
+            user.save()
+
+        }catch(err){
+            console.log(err);
+            throw new ApplicationError("something is wrong while signup of user ",503);
+    
+
+        }
+    }
+
+
+    async signUp(user){
+      try{
+        const newUser = new UserModel(user)
+        await newUser.save();
+
+      }catch(err){
+         console.log(err);
+        throw new ApplicationError("something is wrong while signup of user ",503);
+
       }
 
-      async findByEmail(email){
-        try{
-  
-            //1. get the DB
-            const db = getDB();
-            //2. get the collection
-            const collection = db.collection("users");
-           
-            //3. insert the document
-          return  await collection.findOne({email});
-          
-  
-          }catch(err){
-              console.log(err);
-              throw new ApplicationError("something is wrong while signup of user ",503);
-          }
-  
-        
-  
-      }
+    }
 
+    async findByEmail(email){
+        try{
+           return await UserModel.findOne({email})
+
+          }catch(err){ console.log(err);
+            throw new ApplicationError("something is wrong while signup of user ",503);
+    
+          }
+
+    }
 }
-
-
-export default UserRepository;
